@@ -70,7 +70,7 @@ function addPagination(list) {
          button.classList.remove('active');
          e.target.classList.add('active');
 
-         showPage(data, e.target.textContent);
+         showPage(list, e.target.textContent);
       }
 
    });
